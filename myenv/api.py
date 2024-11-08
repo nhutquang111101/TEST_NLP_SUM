@@ -31,17 +31,9 @@ output_file_path = '/Users/duyenhuynh/Documents/python/TEST_NLP_SUM/myenv/output
 
 # Mở tệp output.txt để ghi dữ liệu
 with open(output_file_path, 'w', encoding='utf-8') as output_file:
-    # Lặp qua các file trong thư mục
-    for filename in os.listdir(folder_path_train):
-        file_path = os.path.join(folder_path_train, filename)
-        if os.path.isfile(file_path):
-            # output_file.write(f"Nội dung của file {filename}:\n")  # Ghi tiêu đề cho mỗi tệp
-            with open(file_path, 'r', encoding='utf-8') as file:
+        with open(r'/Users/duyenhuynh/Documents/python/TEST_NLP_SUM/myenv/train/d061j', 'r', encoding='utf-8') as file:
                 content = file.read()
-                output_file.write(content)  # Ghi nội dung tệp vào output.txt
-                # output_file.write("\n" + "-" * 50 + "\n")  # Ngăn cách giữa các file
-        else:
-            output_file.write(f"{filename} không phải là File mà là Thư mục\n")
+                output_file.write(content)  # Ghi nội dung tệp vào output.txt    
 
 print(f"Dữ liệu đã được lưu vào {output_file_path}")
 

@@ -186,12 +186,13 @@ ranked_sentences = sorted(((pagerank_scores[i], s) for i, s in enumerate(process
 # Tính số lượng câu trong văn bản gốc
 total_sentences = len(ranked_sentences)
 
-# Chọn số lượng câu tóm tắt theo tỷ lệ %
-summary_ratio = 0.1
+# Chọn số lượng câu tóm tắt theo tỷ lệ 10 %
+summary_ratio = 0.2
 num_sentences_summary = max(1, int(total_sentences * summary_ratio))  # Đảm bảo ít nhất 1 câu
 
 # Lấy các câu tóm tắt từ danh sách xếp hạng
 summary_sentences = [ranked_sentences[i][1] for i in range(num_sentences_summary)]
+
 
 # Lưu vào file 
 Sum_auto_path = 'D:/WORKSPACE/CodeWork/nlpcode/myenv/SUM_AUTO.txt'
@@ -275,30 +276,23 @@ tfidf_matrix = vectorizer.fit_transform(all_summaries)  # Tính toán TF-IDF cho
 auto_summary_vectors = tfidf_matrix[:len(summary_sentences)]  # Các vector của câu từ auto_summary
 reference_summary_vectors = tfidf_matrix[len(contentTF_SUM):]  # Các vector của câu từ reference_summary
 
-# Khởi tạo danh sách để lưu trữ câu tương đồng và không tương đồng
-similar_sentences = []
-matching_count = 0
 
-# Tính toán độ tương đồng giữa các câu trong auto_summary và reference_summary
-for doc_idx, doc_tfidf_encoded_vector in enumerate(auto_summary_vectors):
-    for ref_idx, ref_tfidf_encoded_vector in enumerate(reference_summary_vectors):
-        
-        # Tính tương đồng cosine giữa hai vectors tài liệu và truy vấn
-        cs = 1 - distance.cosine(doc_tfidf_encoded_vector.toarray().ravel(), ref_tfidf_encoded_vector.toarray().ravel())
-        
-        # Nếu tương đồng cosine lớn hơn 0.5, coi là tương đồng
-        if cs > 0.5:
-            matching_count += 1
-            similar_sentences.append((summary_sentences[doc_idx], contentTF_SUM[ref_idx], cs))
+# Chuyển danh sách thành tập hợp (set)
+set1 = set(summary_sentences)
+set2 = set(contentTF_SUM)
 
-# In ra số câu tương đồng
-total_count = len(contentTF_SUM)  # Tổng số câu trong reference_summary
-matching_percentage = (matching_count / total_count) * 100
+# So sánh các câu
+common_sentences = set1 & set2  # Giao của hai tập hợp
+common_count = len(common_sentences)  # Số lượng câu giống nhau
 
-print(f"Số câu tương đồng: {matching_count} / {total_count}")
-print(f"Tỷ lệ phần trăm tương đồng: {matching_percentage:.2f}%")
+# In kết quả
 
-# In ra các câu tương đồng
-print("\nCâu tương đồng:")
-for auto_sentence, ref_sentence, sim_score in similar_sentences:
-    print(f"{auto_sentence:<30} | {ref_sentence:<30} | Tương đồng Cosine: {sim_score:.6f}")
+print("Các câu giống nhau:")
+print("\n".join(common_sentences))
+
+print(f"\nSố câu giống nhau: {common_count}")
+# Tính phần trăm
+percent_dataset1 = (common_count / len(set1)) * 100
+percent_dataset2 = (common_count / len(set2)) * 100
+print(f"Phần trăm câu giống nhau trong dataset1: {percent_dataset1:.2f}%")
+print(f"Phần trăm câu giống nhau trong dataset2: {percent_dataset2:.2f}%")

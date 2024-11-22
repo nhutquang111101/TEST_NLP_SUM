@@ -187,7 +187,7 @@ ranked_sentences = sorted(((pagerank_scores[i], s) for i, s in enumerate(process
 total_sentences = len(ranked_sentences)
 
 # Chọn số lượng câu tóm tắt theo tỷ lệ 10 %
-summary_ratio = 0.2
+summary_ratio = 0.1
 num_sentences_summary = max(1, int(total_sentences * summary_ratio))  # Đảm bảo ít nhất 1 câu
 
 # Lấy các câu tóm tắt từ danh sách xếp hạng
@@ -260,21 +260,21 @@ with open(preprocessed_output_file_SUM, 'r', encoding='utf-8') as file:
 vectorizer_SUM = TfidfVectorizer()
 tfidf_matrix_SUM = vectorizer_SUM.fit_transform(processed_sentences_SUM)
 
-# tính độ tương đồng của 2 văn bản
-# Ngưỡng Cosine Similarity để xác định câu tương đồng
-similarity_threshold = 0.7
+# # tính độ tương đồng của 2 văn bản
+# # Ngưỡng Cosine Similarity để xác định câu tương đồng
+# similarity_threshold = 0.7
 
-# Kết hợp cả 2 danh sách lại để tính toán TF-IDF
-all_summaries = summary_sentences + contentTF_SUM
-tfidf_matrix = vectorizer.fit_transform(all_summaries)
-# Kết hợp cả 2 danh sách lại để tính toán TF-IDF
-all_summaries = summary_sentences + contentTF_SUM  # Kết hợp hai danh sách
-vectorizer = TfidfVectorizer()
-tfidf_matrix = vectorizer.fit_transform(all_summaries)  # Tính toán TF-IDF cho toàn bộ câu
+# # Kết hợp cả 2 danh sách lại để tính toán TF-IDF
+# all_summaries = summary_sentences + contentTF_SUM
+# tfidf_matrix = vectorizer.fit_transform(all_summaries)
+# # Kết hợp cả 2 danh sách lại để tính toán TF-IDF
+# all_summaries = summary_sentences + contentTF_SUM  # Kết hợp hai danh sách
+# vectorizer = TfidfVectorizer()
+# tfidf_matrix = vectorizer.fit_transform(all_summaries)  # Tính toán TF-IDF cho toàn bộ câu
 
-# Tách riêng các vector của tóm tắt tự động và chuẩn
-auto_summary_vectors = tfidf_matrix[:len(summary_sentences)]  # Các vector của câu từ auto_summary
-reference_summary_vectors = tfidf_matrix[len(contentTF_SUM):]  # Các vector của câu từ reference_summary
+# # Tách riêng các vector của tóm tắt tự động và chuẩn
+# auto_summary_vectors = tfidf_matrix[:len(summary_sentences)]  # Các vector của câu từ auto_summary
+# reference_summary_vectors = tfidf_matrix[len(contentTF_SUM):]  # Các vector của câu từ reference_summary
 
 
 # Chuyển danh sách thành tập hợp (set)

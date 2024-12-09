@@ -1,0 +1,2629 @@
+Document 1:
+  alerted: 0.2449
+  civil: 0.2118
+  coast: 0.1593
+  defense: 0.2118
+  dominican: 0.1593
+  gilbert: 0.1365
+  heavily: 0.2642
+  heavy: 0.1748
+  high: 0.4236
+  hurricane: 0.1051
+  populated: 0.2642
+  prepare: 0.2642
+  rains: 0.2311
+  republic: 0.1593
+  seas: 0.2642
+  south: 0.1713
+  sunday: 0.1828
+  swept: 0.2449
+  toward: 0.2449
+  winds: 0.1382
+
+Document 2:
+  75: 0.3826
+  92: 0.3826
+  approaching: 0.3546
+  gusting: 0.3546
+  mph: 0.4693
+  southeast: 0.2786
+  storm: 0.1888
+  sustained: 0.2868
+  winds: 0.2001
+
+Document 3:
+  alarm: 0.3229
+  alert: 0.2993
+  cabral: 0.2825
+  civil: 0.2588
+  defense: 0.2588
+  director: 0.2588
+  eugenio: 0.2993
+  midnight: 0.2993
+  need: 0.2993
+  said: 0.1188
+  saturday: 0.2420
+  shortly: 0.3229
+  television: 0.2825
+
+Document 4:
+  barahona: 0.3437
+  cabral: 0.3437
+  closely: 0.3929
+  follow: 0.3641
+  gilberts: 0.3278
+  movement: 0.3929
+  province: 0.3278
+  residents: 0.2944
+  said: 0.1446
+
+Document 5:
+  100000: 0.2886
+  125: 0.2886
+  70000: 0.3114
+  barahona: 0.2724
+  city: 0.2154
+  domingo: 0.2724
+  estimated: 0.2886
+  including: 0.3114
+  live: 0.3114
+  miles: 0.2019
+  people: 0.1943
+  province: 0.2598
+  santo: 0.2724
+  west: 0.2105
+
+Document 6:
+  caribbean: 0.3027
+  eastern: 0.3915
+  formed: 0.3735
+  gilbert: 0.2313
+  hurricane: 0.1780
+  night: 0.3097
+  saturday: 0.3355
+  storm: 0.2208
+  strengthened: 0.3915
+  tropical: 0.3463
+
+Document 7:
+  140: 0.2215
+  161: 0.2532
+  200: 0.2532
+  675: 0.2532
+  center: 0.1456
+  domingo: 0.2215
+  hurricane: 0.1007
+  latitude: 0.2347
+  longitude: 0.2347
+  miami: 0.1796
+  miles: 0.3283
+  national: 0.1527
+  north: 0.1844
+  ponce: 0.2532
+  position: 0.2532
+  puerto: 0.1527
+  reported: 0.1553
+  rico: 0.1581
+  santo: 0.2215
+  south: 0.1642
+  southeast: 0.1844
+  sunday: 0.1752
+  west: 0.1712
+
+Document 8:
+  15: 0.2386
+  area: 0.2276
+  around: 0.2186
+  broad: 0.2728
+  center: 0.1569
+  cloudiness: 0.2728
+  gilbert: 0.1410
+  heavy: 0.1805
+  juan: 0.2386
+  moving: 0.1888
+  mph: 0.1673
+  national: 0.1645
+  puerto: 0.1645
+  rico: 0.1703
+  rotating: 0.2728
+  said: 0.1004
+  san: 0.2386
+  service: 0.1987
+  storm: 0.1346
+  weather: 0.3973
+  westward: 0.2386
+
+Document 9:
+  flash: 0.3067
+  flood: 0.3249
+  islands: 0.2426
+  issued: 0.2628
+  least: 0.3249
+  pm: 0.3067
+  puerto: 0.2114
+  rico: 0.2188
+  service: 0.2553
+  sunday: 0.2426
+  virgin: 0.3249
+  watch: 0.2925
+  weather: 0.2553
+
+Document 10:
+  12: 0.2633
+  associated: 0.2440
+  brought: 0.2440
+  coast: 0.1587
+  coastal: 0.2110
+  feet: 0.4880
+  flooding: 0.1917
+  gilbert: 0.1360
+  puerto: 0.1587
+  ricos: 0.2633
+  south: 0.1707
+  southeast: 0.1917
+  strong: 0.4606
+  winds: 0.2754
+
+Document 11:
+  casualties: 0.7432
+  reports: 0.6691
+
+Document 12:
+  coast: 0.2360
+  gusts: 0.3628
+  heavy: 0.2590
+  juan: 0.3424
+  night: 0.2708
+  north: 0.2850
+  rains: 0.3424
+  san: 0.3424
+  saturday: 0.2934
+  subsided: 0.3915
+
+Document 13:
+  coast: 0.2113
+  downgraded: 0.3247
+  florence: 0.3247
+  gulf: 0.2808
+  hurricane: 0.1394
+  inland: 0.3504
+  pushed: 0.3504
+  remnants: 0.3504
+  saturday: 0.2626
+  storm: 0.1729
+  tropical: 0.2711
+  us: 0.3247
+
+Document 14:
+  80: 0.3477
+  damage: 0.2606
+  find: 0.3477
+  happy: 0.3477
+  home: 0.2901
+  little: 0.3042
+  mph: 0.2132
+  rain: 0.2301
+  residents: 0.2606
+  returned: 0.3477
+  sheets: 0.2690
+  winds: 0.1819
+
+Document 15:
+  1988: 0.3658
+  atlantic: 0.3390
+  florence: 0.3390
+  hurricane: 0.1455
+  named: 0.3390
+  season: 0.3658
+  second: 0.3200
+  sixth: 0.3658
+  storm: 0.3609
+
+Document 16:
+  briefly: 0.3267
+  coast: 0.1970
+  debby: 0.3267
+  first: 0.2858
+  hitting: 0.3267
+  hurricane: 0.1299
+  last: 0.3028
+  mexican: 0.3028
+  minimal: 0.3267
+  month: 0.3267
+  reached: 0.2858
+  strength: 0.2527
+
+Document 17:
+  110: 0.2842
+  capital: 0.2711
+  city: 0.2248
+  dominican: 0.1959
+  gilbert: 0.1679
+  haiti: 0.2197
+  hurricane: 0.1292
+  moved: 0.2514
+  mph: 0.1993
+  packing: 0.3249
+  puerto: 0.1959
+  rain: 0.2150
+  republic: 0.1959
+  rico: 0.2028
+  skirting: 0.3011
+  today: 0.2842
+  torrential: 0.3011
+  winds: 0.1699
+
+Document 18:
+  casualties: 0.5798
+  immediate: 0.6256
+  reports: 0.5220
+
+Document 19:
+  affected: 0.5881
+  communications: 0.5881
+  telephone: 0.5551
+
+Document 20:
+  actually: 0.3782
+  bob: 0.3570
+  center: 0.2347
+  director: 0.3271
+  hurricane: 0.1623
+  jamaica: 0.2595
+  miami: 0.2894
+  moving: 0.2824
+  national: 0.2461
+  right: 0.3570
+  said: 0.1502
+  sheets: 0.3157
+
+Document 21:
+  110: 0.3706
+  already: 0.4236
+  eastern: 0.3706
+  mph: 0.2598
+  reports: 0.3535
+  tip: 0.4236
+  weve: 0.3535
+  winds: 0.2216
+
+Document 22:
+  across: 0.2428
+  bear: 0.2573
+  brunt: 0.2317
+  eye: 0.2081
+  full: 0.2428
+  going: 0.4857
+  hurricane: 0.1104
+  island: 0.1837
+  lengthwise: 0.2573
+  like: 0.2225
+  looks: 0.2573
+  move: 0.2573
+  powerful: 0.2573
+  said: 0.1022
+  sheets: 0.2148
+  theyre: 0.2573
+
+Document 23:
+  british: 0.2492
+  cayman: 0.1860
+  day: 0.2492
+  dependency: 0.2492
+  expected: 0.2015
+  forecasters: 0.1958
+  gilbert: 0.1389
+  islands: 0.1860
+  jamaica: 0.3419
+  lash: 0.2689
+  later: 0.2689
+  northwest: 0.2244
+  say: 0.2689
+  small: 0.2492
+  strike: 0.2689
+  throughout: 0.2689
+  track: 0.2352
+
+Document 24:
+  25000: 0.2560
+  began: 0.2560
+  brushing: 0.2763
+  coast: 0.1666
+  cubas: 0.2560
+  evacuated: 0.2070
+  fanning: 0.2763
+  gilbert: 0.1427
+  guantanamo: 0.2137
+  havana: 0.2417
+  island: 0.1828
+  meanwhile: 0.2560
+  people: 0.1724
+  province: 0.2305
+  radio: 0.2214
+  reported: 0.1694
+  southeastern: 0.2417
+  strong: 0.2417
+  today: 0.2417
+  winds: 0.1445
+
+Document 25:
+  airport: 0.2329
+  arrived: 0.2221
+  canceled: 0.2221
+  cayman: 0.1842
+  chain: 0.2662
+  flights: 0.4267
+  frightened: 0.2662
+  grand: 0.2329
+  international: 0.2467
+  island: 0.1761
+  jamaicabound: 0.2467
+  main: 0.2329
+  miami: 0.1888
+  packed: 0.2467
+  threeisland: 0.2662
+  travelers: 0.2467
+
+Document 26:
+  around: 0.2202
+  california: 0.2747
+  cayman: 0.1901
+  chickens: 0.2546
+  cut: 0.2292
+  grand: 0.2403
+  heads: 0.2546
+  home: 0.2292
+  hotel: 0.2125
+  like: 0.2202
+  lobby: 0.2546
+  main: 0.2403
+  miami: 0.1948
+  one: 0.1948
+  people: 0.1715
+  returning: 0.2747
+  running: 0.2546
+  said: 0.1011
+  vacationer: 0.2747
+
+Document 27:
+  cayman: 0.3614
+  cuba: 0.3804
+  haiti: 0.3532
+  hurricane: 0.2078
+  islands: 0.3614
+  posted: 0.5224
+  warnings: 0.3915
+
+Document 28:
+  discontinued: 0.6324
+  dominican: 0.4114
+  republic: 0.4114
+  warnings: 0.5114
+
+Document 29:
+  adding: 0.2393
+  caribbean: 0.1746
+  change: 0.2582
+  continue: 0.2259
+  dangerous: 0.2393
+  expected: 0.1935
+  hours: 0.2259
+  hurricane: 0.2054
+  interests: 0.2393
+  jamaica: 0.1642
+  little: 0.2259
+  monitor: 0.2393
+  moves: 0.2582
+  next: 0.2155
+  progress: 0.2393
+  said: 0.0950
+  service: 0.1880
+  several: 0.2393
+  strength: 0.1998
+  western: 0.2259
+  westward: 0.2259
+
+Document 30:
+  associated: 0.2018
+  branches: 0.1904
+  calls: 0.2177
+  capital: 0.1817
+  caribbean: 0.1472
+  causing: 0.1904
+  drenched: 0.2018
+  flooding: 0.1585
+  get: 0.1817
+  headquarters: 0.2177
+  heavy: 0.1441
+  high: 0.1745
+  juan: 0.1904
+  kingston: 0.1684
+  littering: 0.2018
+  local: 0.2018
+  overnight: 0.2018
+  phone: 0.2177
+  preceding: 0.2018
+  press: 0.2177
+  puerto: 0.1313
+  rain: 0.1441
+  rico: 0.1359
+  san: 0.1904
+  storm: 0.1074
+  streets: 0.1817
+  toppling: 0.2018
+  trees: 0.1632
+  unable: 0.2177
+  winds: 0.1139
+
+Document 31:
+  boarding: 0.4093
+  home: 0.3685
+  hurricane: 0.1756
+  jamaicans: 0.4416
+  preparation: 0.4093
+  stayed: 0.4093
+  windows: 0.3685
+
+Document 32:
+  appeals: 0.3885
+  broadcast: 0.3885
+  companies: 0.3601
+  electricians: 0.3885
+  report: 0.3399
+  technicians: 0.3885
+  work: 0.3885
+
+Document 33:
+  140: 0.2372
+  bureau: 0.2711
+  center: 0.1559
+  clarendon: 0.2711
+  dawn: 0.2513
+  gilberts: 0.2262
+  hit: 0.2262
+  kingston: 0.4195
+  miles: 0.1758
+  parish: 0.2711
+  pass: 0.2513
+  predicted: 0.2711
+  south: 0.1758
+  southeast: 0.1974
+  southern: 0.2098
+  weather: 0.1974
+  would: 0.1923
+
+Document 34:
+  flash: 0.3084
+  flood: 0.3268
+  issued: 0.2643
+  mary: 0.3526
+  north: 0.2568
+  northeast: 0.3084
+  parishes: 0.3526
+  portland: 0.3526
+  st: 0.3526
+  warnings: 0.2643
+
+Document 35:
+  bay: 0.2378
+  coast: 0.1547
+  east: 0.2244
+  expected: 0.1923
+  far: 0.2566
+  heavy: 0.1698
+  impact: 0.2566
+  montego: 0.2566
+  mountains: 0.2378
+  north: 0.1868
+  ocho: 0.2566
+  rain: 0.1698
+  receive: 0.2244
+  region: 0.2378
+  rios: 0.2566
+  separated: 0.2566
+  southern: 0.1985
+  tourist: 0.2566
+  west: 0.1735
+  zone: 0.2141
+
+Document 36:
+  along: 0.2580
+  areas: 0.2580
+  coast: 0.1940
+  ground: 0.2983
+  higher: 0.5631
+  officials: 0.2227
+  residents: 0.2412
+  risk: 0.3219
+  seek: 0.2983
+  south: 0.2087
+  urged: 0.2816
+
+Document 37:
+  caribbean: 0.2239
+  center: 0.1904
+  certainly: 0.2897
+  forecaster: 0.2763
+  gerrish: 0.2897
+  hal: 0.2897
+  hurricane: 0.1317
+  larger: 0.2897
+  long: 0.2763
+  national: 0.1996
+  one: 0.2348
+  said: 0.1219
+  seen: 0.2897
+  systems: 0.2763
+  time: 0.2482
+  weve: 0.2763
+
+Document 38:
+  140: 0.3644
+  center: 0.2395
+  dawn: 0.3860
+  eye: 0.3122
+  forecasters: 0.3033
+  gilbert: 0.2152
+  kingston: 0.3222
+  miles: 0.2701
+  said: 0.1533
+  southeast: 0.3033
+  today: 0.3644
+
+Document 39:
+  100: 0.2456
+  110: 0.2575
+  250: 0.2944
+  extending: 0.2944
+  force: 0.2728
+  maximum: 0.2456
+  miles: 0.3817
+  mph: 0.1805
+  near: 0.2728
+  north: 0.2144
+  south: 0.1908
+  sustained: 0.2206
+  tropicalstorm: 0.2944
+  winds: 0.3079
+
+Document 40:
+  agencies: 0.2117
+  alerted: 0.1962
+  appears: 0.2117
+  danger: 0.2117
+  disaster: 0.2117
+  edward: 0.1962
+  everyone: 0.2117
+  follow: 0.1962
+  gilbert: 0.1094
+  government: 0.1587
+  hurricane: 0.1684
+  instructions: 0.2117
+  issued: 0.1587
+  jamaica: 0.1346
+  minimize: 0.2117
+  minister: 0.1962
+  night: 0.1465
+  office: 0.2117
+  order: 0.2117
+  precautions: 0.2117
+  preparedness: 0.2117
+  prime: 0.1962
+  real: 0.2117
+  saying: 0.2117
+  seaga: 0.1852
+  sunday: 0.1465
+  threat: 0.1962
+
+Document 41:
+  10: 0.2782
+  dominican: 0.1918
+  dumped: 0.3181
+  forecasters: 0.2316
+  gaining: 0.2782
+  haiti: 0.2151
+  hispaniola: 0.2948
+  hurricane: 0.1265
+  inches: 0.2461
+  island: 0.2105
+  ocean: 0.2948
+  passed: 0.2654
+  rain: 0.2105
+  republic: 0.1918
+  said: 0.1171
+  share: 0.2948
+  strength: 0.2461
+
+Document 42:
+  72: 0.2774
+  another: 0.2774
+  center: 0.1595
+  going: 0.2427
+  hours: 0.2427
+  know: 0.2079
+  major: 0.2774
+  martin: 0.2774
+  meteorologist: 0.2571
+  nelson: 0.2774
+  said: 0.1021
+  states: 0.2571
+  threat: 0.2571
+  united: 0.2571
+  whether: 0.2774
+  within: 0.2774
+
+Document 43:
+  17: 0.3086
+  central: 0.3330
+  cuba: 0.2425
+  hurricanes: 0.2576
+  moving: 0.2304
+  mph: 0.2042
+  normally: 0.3330
+  northward: 0.3330
+  pass: 0.3086
+  take: 0.3086
+  turn: 0.3330
+  west: 0.2252
+
+Document 44:
+  agency: 0.2326
+  alert: 0.2326
+  cuba: 0.1827
+  cuban: 0.2510
+  cubas: 0.2326
+  de: 0.2510
+  declared: 0.2510
+  granma: 0.2510
+  guantanamo: 0.1941
+  holguin: 0.2510
+  latina: 0.2326
+  midday: 0.2510
+  news: 0.2326
+  official: 0.2195
+  prensa: 0.2326
+  provinces: 0.2510
+  said: 0.0924
+  santiago: 0.2510
+  state: 0.2094
+
+Document 45:
+  broadcasting: 0.2487
+  bulletins: 0.2487
+  city: 0.1721
+  civil: 0.1993
+  defense: 0.1993
+  emergency: 0.2487
+  havana: 0.2175
+  information: 0.2487
+  latina: 0.2305
+  measures: 0.2487
+  mexico: 0.1811
+  national: 0.1499
+  officials: 0.1721
+  prensa: 0.2305
+  providing: 0.2487
+  radio: 0.1993
+  received: 0.2487
+  recommending: 0.2487
+  report: 0.2175
+  said: 0.0915
+  storm: 0.1227
+  television: 0.2175
+
+Document 46:
+  100: 0.2226
+  barahona: 0.2334
+  caused: 0.2334
+  center: 0.1534
+  dominican: 0.1608
+  downed: 0.2472
+  flooding: 0.1942
+  haiti: 0.1804
+  heavy: 0.1765
+  hurricanes: 0.2064
+  less: 0.2472
+  lines: 0.2334
+  miles: 0.1729
+  neighboring: 0.2472
+  night: 0.1846
+  passed: 0.2226
+  peninsula: 0.2064
+  power: 0.2064
+  rain: 0.1765
+  republic: 0.1608
+  south: 0.1729
+  stiff: 0.2668
+  sunday: 0.1846
+  winds: 0.1395
+
+Document 47:
+  areas: 0.2543
+  coastal: 0.2543
+  flooded: 0.3173
+  houses: 0.2940
+  hurricane: 0.1262
+  islands: 0.2195
+  night: 0.2195
+  puerto: 0.1913
+  reaching: 0.2940
+  rico: 0.1980
+  ripped: 0.2775
+  roofs: 0.2454
+  saturday: 0.2378
+  southeast: 0.2310
+  southwestern: 0.2775
+  storm: 0.1565
+  strength: 0.2454
+
+Document 48:
+  areas: 0.2217
+  cabral: 0.2420
+  canceled: 0.2308
+  capital: 0.2308
+  civil: 0.2217
+  defense: 0.2217
+  director: 0.2217
+  domingo: 0.2420
+  dominican: 0.1668
+  eugenio: 0.2564
+  flights: 0.2217
+  flooding: 0.2014
+  outages: 0.2766
+  parts: 0.2766
+  power: 0.2140
+  reported: 0.1696
+  republic: 0.1668
+  santo: 0.2420
+  southern: 0.2140
+  sunday: 0.1914
+
+Document 49:
+  115: 0.2704
+  buildings: 0.2435
+  downed: 0.2704
+  gilbert: 0.1508
+  homes: 0.2338
+  hurricane: 0.1160
+  kingston: 0.2257
+  lines: 0.2552
+  monday: 0.2338
+  mph: 0.1789
+  power: 0.2257
+  rains: 0.2552
+  ripped: 0.2552
+  roofs: 0.2257
+  slammed: 0.2552
+  torrential: 0.2704
+  trees: 0.2187
+  uprooted: 0.2435
+  winds: 0.1526
+
+Document 50:
+  750000: 0.3310
+  around: 0.2652
+  city: 0.2290
+  force: 0.3067
+  full: 0.2895
+  hit: 0.2761
+  hurricane: 0.1316
+  immediately: 0.3310
+  injuries: 0.2895
+  noon: 0.3310
+  people: 0.2066
+  reported: 0.2029
+  serious: 0.3310
+
+Document 51:
+  air: 0.2854
+  blowing: 0.3080
+  branches: 0.2694
+  city: 0.2131
+  fences: 0.3080
+  half: 0.3080
+  hour: 0.2854
+  hurricane: 0.1225
+  lashed: 0.3080
+  paper: 0.3080
+  tearing: 0.2854
+  trees: 0.2308
+  whipping: 0.3080
+
+Document 52:
+  aircraft: 0.3636
+  airport: 0.3180
+  damage: 0.2725
+  fields: 0.3636
+  heavy: 0.2406
+  kingstons: 0.3636
+  national: 0.2192
+  parked: 0.3636
+  reported: 0.2229
+  service: 0.2647
+  weather: 0.2647
+
+Document 53:
+  across: 0.3760
+  city: 0.2974
+  eye: 0.3221
+  first: 0.3760
+  let: 0.4298
+  moved: 0.3325
+  shock: 0.4298
+  storm: 0.2120
+
+Document 54:
+  arrived: 0.2950
+  blow: 0.3276
+  brightened: 0.3535
+  died: 0.3535
+  hour: 0.3276
+  hurricane: 0.1406
+  people: 0.2207
+  second: 0.3093
+  skies: 0.3535
+  waited: 0.3535
+  winds: 0.1849
+
+Document 55:
+  airport: 0.4207
+  canceled: 0.4013
+  flights: 0.3854
+  international: 0.4457
+  jamaicabound: 0.4457
+  miami: 0.3410
+
+Document 56:
+  arrived: 0.2591
+  cayman: 0.2148
+  cutting: 0.3105
+  flights: 0.2489
+  hurricane: 0.1235
+  islands: 0.2148
+  miami: 0.2202
+  next: 0.2591
+  packed: 0.2878
+  path: 0.3105
+  reportedly: 0.3105
+  short: 0.3105
+  travelers: 0.2878
+  vacations: 0.3105
+
+Document 57:
+  around: 0.2475
+  cayman: 0.2136
+  chickens: 0.2861
+  cut: 0.2576
+  grand: 0.2701
+  heads: 0.2861
+  hotel: 0.2389
+  island: 0.2043
+  like: 0.2475
+  lobby: 0.2861
+  main: 0.2701
+  man: 0.3088
+  one: 0.2189
+  people: 0.1927
+  running: 0.2861
+  said: 0.1136
+
+Document 58:
+  115: 0.3242
+  17: 0.3242
+  hurricane: 0.1391
+  maximum: 0.2919
+  moving: 0.2420
+  mph: 0.4290
+  national: 0.2109
+  report: 0.3060
+  said: 0.1287
+  service: 0.2547
+  sustained: 0.2622
+  weather: 0.2547
+  west: 0.2365
+  winds: 0.1830
+
+Document 59:
+  10: 0.2823
+  cause: 0.2991
+  flash: 0.2823
+  floods: 0.2991
+  inches: 0.2497
+  jamaica: 0.2052
+  mud: 0.3227
+  rain: 0.2136
+  receive: 0.2823
+  said: 0.1188
+  slides: 0.3227
+  would: 0.4577
+
+Document 60:
+  actually: 0.3782
+  bob: 0.3570
+  center: 0.2347
+  director: 0.3271
+  hurricane: 0.1623
+  jamaica: 0.2595
+  miami: 0.2894
+  moving: 0.2824
+  national: 0.2461
+  right: 0.3570
+  said: 0.1502
+  sheets: 0.3157
+
+Document 61:
+  across: 0.2487
+  bear: 0.2634
+  brunt: 0.2372
+  eye: 0.2130
+  full: 0.2487
+  going: 0.4973
+  hurricane: 0.1131
+  island: 0.1881
+  lengthwise: 0.2634
+  like: 0.2278
+  looks: 0.2634
+  move: 0.2634
+  powerful: 0.2634
+  said: 0.1046
+  theyre: 0.2634
+
+Document 62:
+  dominican: 0.2743
+  gilbert: 0.2351
+  haiti: 0.3076
+  jamaica: 0.2893
+  puerto: 0.2743
+  reached: 0.3980
+  republic: 0.2743
+  rico: 0.2840
+  skirting: 0.4216
+  southern: 0.3520
+
+Document 63:
+  camaguey: 0.3213
+  cayman: 0.2223
+  coast: 0.1937
+  cuba: 0.2339
+  discontinued: 0.2977
+  dominican: 0.1937
+  east: 0.2810
+  haiti: 0.2172
+  hurricane: 0.1278
+  islands: 0.2223
+  issued: 0.2408
+  monday: 0.2575
+  republic: 0.1937
+  south: 0.2083
+  warnings: 0.4816
+
+Document 64:
+  branches: 0.2625
+  causing: 0.2625
+  drenched: 0.2781
+  flooding: 0.2185
+  heavy: 0.1986
+  high: 0.2405
+  kingston: 0.2321
+  littering: 0.2781
+  local: 0.2781
+  overnight: 0.2781
+  preceding: 0.2781
+  rain: 0.1986
+  storm: 0.1480
+  streets: 0.2504
+  toppling: 0.2781
+  trees: 0.2249
+  winds: 0.1569
+
+Document 65:
+  23: 0.3480
+  boarding: 0.3480
+  home: 0.3133
+  hurricane: 0.1493
+  jamaicas: 0.3480
+  million: 0.3480
+  people: 0.2344
+  preparation: 0.3480
+  stayed: 0.3480
+  windows: 0.3133
+
+Document 66:
+  area: 0.2152
+  coast: 0.3110
+  damage: 0.1933
+  expected: 0.1933
+  ground: 0.2390
+  heavy: 0.1707
+  higher: 0.2256
+  hurricane: 0.1026
+  mountains: 0.2390
+  much: 0.2390
+  north: 0.1878
+  officials: 0.1785
+  popular: 0.2580
+  rain: 0.1707
+  receive: 0.2256
+  residents: 0.1933
+  resort: 0.2580
+  seek: 0.2390
+  side: 0.2580
+  south: 0.1672
+  urged: 0.2256
+
+Document 67:
+  25000: 0.2535
+  areas: 0.2192
+  began: 0.2535
+  brush: 0.2735
+  coast: 0.1649
+  coastal: 0.2192
+  evacuated: 0.2050
+  gilberts: 0.2282
+  guantanamo: 0.2116
+  havana: 0.2393
+  island: 0.1810
+  meanwhile: 0.2535
+  monday: 0.2192
+  nations: 0.2535
+  people: 0.1707
+  province: 0.2282
+  radio: 0.2192
+  rain: 0.1810
+  reported: 0.1677
+  southeastern: 0.2393
+  winds: 0.1431
+
+Document 68:
+  appeared: 0.2430
+  bases: 0.2622
+  bay: 0.2430
+  brunt: 0.2188
+  cuba: 0.1909
+  guantanamo: 0.2028
+  hurricane: 0.1043
+  navy: 0.2430
+  precautionary: 0.2622
+  puerto: 0.1581
+  reported: 0.1608
+  rico: 0.1636
+  roads: 0.2430
+  roosevelt: 0.2622
+  safe: 0.2622
+  steps: 0.2622
+  taken: 0.2622
+  various: 0.2622
+  washington: 0.2622
+
+Document 69:
+  230: 0.2774
+  appeared: 0.2570
+  brunt: 0.2314
+  cuba: 0.2020
+  edt: 0.2223
+  guantanamo: 0.2145
+  ken: 0.2774
+  lt: 0.2774
+  navy: 0.2570
+  passing: 0.2774
+  pm: 0.2426
+  reported: 0.1701
+  ross: 0.2426
+  said: 0.1021
+  southeastern: 0.2426
+  spokesman: 0.2426
+  station: 0.2774
+  storm: 0.1368
+
+Document 70:
+  25: 0.3137
+  50: 0.2961
+  gusts: 0.3137
+  knots: 0.6769
+  maximum: 0.2824
+  reported: 0.2075
+  ross: 0.2961
+  said: 0.1246
+  winds: 0.1770
+
+Document 71:
+  damage: 0.5269
+  injuries: 0.6150
+  reports: 0.5866
+
+Document 72:
+  back: 0.2163
+  barracks: 0.2473
+  condition: 0.2473
+  cut: 0.2063
+  day: 0.2292
+  earlier: 0.2063
+  electrical: 0.2473
+  essential: 0.2473
+  guantanamo: 0.1913
+  meaning: 0.2473
+  moved: 0.1913
+  nonessential: 0.2473
+  personnel: 0.2473
+  power: 0.1913
+  said: 0.0910
+  sent: 0.2473
+  spokesman: 0.2163
+  two: 0.1982
+  usage: 0.2473
+  uses: 0.2473
+
+Document 73:
+  also: 0.3260
+  causing: 0.3077
+  damage: 0.2636
+  facilities: 0.3517
+  military: 0.3517
+  puerto: 0.2121
+  rico: 0.2195
+  ross: 0.3077
+  said: 0.1294
+  skirted: 0.3517
+  storm: 0.1735
+  without: 0.3517
+
+Document 74:
+  cayman: 0.2021
+  days: 0.2922
+  expected: 0.2190
+  gilbert: 0.1510
+  gulf: 0.2342
+  islands: 0.2021
+  mexico: 0.2127
+  next: 0.2438
+  northwest: 0.2438
+  said: 0.1075
+  sheets: 0.2260
+  southern: 0.2260
+  sweep: 0.2922
+  three: 0.2708
+  track: 0.2556
+  two: 0.2342
+  veer: 0.2922
+  westward: 0.2556
+
+Document 75:
+  actions: 0.3438
+  british: 0.3186
+  caymans: 0.3186
+  dependency: 0.3186
+  neighboring: 0.3186
+  northwest: 0.2869
+  preparatory: 0.3438
+  residents: 0.2577
+  rush: 0.3438
+  urged: 0.3008
+
+Document 76:
+  along: 0.2257
+  beaches: 0.2817
+  buildings: 0.2350
+  caymans: 0.2610
+  could: 0.2817
+  expect: 0.2610
+  high: 0.2257
+  large: 0.2817
+  may: 0.2610
+  national: 0.1698
+  service: 0.2051
+  undermine: 0.2817
+  warned: 0.2817
+  waters: 0.2464
+  waves: 0.2610
+  weather: 0.2051
+
+Document 77:
+  advised: 0.3750
+  caribbean: 0.2536
+  continue: 0.3280
+  dangerous: 0.3475
+  hurricane: 0.1491
+  interests: 0.3475
+  monitor: 0.3475
+  progress: 0.3475
+  service: 0.2731
+  western: 0.3280
+
+Document 78:
+  caribbean: 0.2151
+  certainly: 0.2783
+  described: 0.3182
+  forecaster: 0.2655
+  gerrish: 0.2783
+  gilbert: 0.1644
+  hal: 0.2783
+  larger: 0.2783
+  long: 0.2655
+  one: 0.2256
+  seen: 0.2783
+  sunday: 0.2201
+  systems: 0.2655
+  time: 0.2385
+  weve: 0.2655
+
+Document 79:
+  cancun: 0.1680
+  caribbean: 0.1786
+  cozumel: 0.2117
+  cut: 0.2204
+  ever: 0.2448
+  gilbert: 0.1365
+  homes: 0.2117
+  hurricane: 0.1051
+  leveled: 0.2642
+  one: 0.1873
+  peninsula: 0.2044
+  resorts: 0.2448
+  roofs: 0.2044
+  slammed: 0.2311
+  storms: 0.2204
+  strongest: 0.2448
+  thatched: 0.2642
+  tore: 0.2642
+  trees: 0.1980
+  uprooted: 0.2204
+  wednesday: 0.1873
+  yucatan: 0.1980
+
+Document 80:
+  away: 0.2912
+  blown: 0.3490
+  cancun: 0.2219
+  looters: 0.3490
+  roamed: 0.3234
+  stealing: 0.3490
+  stores: 0.3234
+  streets: 0.2912
+  whose: 0.3490
+  windows: 0.2912
+
+Document 81:
+  battered: 0.4116
+  beach: 0.3600
+  evacuated: 0.3085
+  huge: 0.4116
+  resorts: 0.3814
+  thousands: 0.3814
+  waves: 0.3814
+
+Document 82:
+  despite: 0.3486
+  ensuing: 0.3486
+  flooding: 0.2538
+  heavy: 0.2306
+  injuries: 0.3049
+  intensity: 0.3486
+  minor: 0.3486
+  officials: 0.2412
+  onslaught: 0.3486
+  reported: 0.2137
+  two: 0.2794
+
+Document 83:
+  19: 0.4100
+  dominican: 0.2472
+  five: 0.3800
+  jamaica: 0.2607
+  killed: 0.3800
+  mexico: 0.2986
+  moving: 0.2837
+  people: 0.2559
+  republic: 0.2472
+  storm: 0.2023
+  west: 0.2772
+
+Document 84:
+  100000: 0.2716
+  500000: 0.2716
+  destroyed: 0.2716
+  edward: 0.2716
+  estimated: 0.2716
+  homes: 0.2349
+  island: 0.1939
+  jamaica: 0.1863
+  jamaicas: 0.2716
+  minister: 0.2716
+  monday: 0.2349
+  prime: 0.2716
+  said: 0.1079
+  seaga: 0.2563
+  storm: 0.1446
+  throttled: 0.2931
+  wednesday: 0.2078
+
+Document 85:
+  23: 0.3298
+  500000: 0.3298
+  earlier: 0.2969
+  embassy: 0.3559
+  homeless: 0.3559
+  jamaican: 0.3559
+  million: 0.3298
+  nations: 0.3298
+  people: 0.2221
+  reported: 0.2182
+
+Document 86:
+  aground: 0.2346
+  amateur: 0.2346
+  beach: 0.2052
+  cancun: 0.2983
+  cardenas: 0.2346
+  fleet: 0.2346
+  government: 0.1758
+  hotel: 0.1815
+  lazaro: 0.2346
+  monopoly: 0.2346
+  oil: 0.4348
+  operators: 0.2174
+  pemex: 0.2174
+  radio: 0.1880
+  run: 0.2346
+  said: 0.0863
+  tanker: 0.2346
+  zone: 0.1957
+
+Document 87:
+  however: 0.4728
+  officials: 0.3271
+  pemex: 0.4382
+  said: 0.1740
+  secure: 0.4728
+  vessels: 0.4728
+
+Document 88:
+  11000: 0.2869
+  35000: 0.2869
+  army: 0.2393
+  cancun: 0.3648
+  city: 0.1985
+  evacuated: 0.2150
+  fled: 0.2869
+  jose: 0.2869
+  mayor: 0.2869
+  mexico: 0.2089
+  officials: 0.1985
+  people: 0.1790
+  said: 0.2111
+  sanchez: 0.2658
+  zapata: 0.2869
+
+Document 89:
+  120000: 0.3858
+  coast: 0.2326
+  evacuated: 0.2891
+  government: 0.2891
+  northeast: 0.3374
+  people: 0.2408
+  said: 0.1420
+  state: 0.3219
+  yucatan: 0.5782
+
+Document 90:
+  160: 0.3824
+  cancun: 0.2431
+  clocked: 0.3824
+  cozumel: 0.3064
+  edt: 0.3064
+  eye: 0.2866
+  howling: 0.3824
+  mph: 0.2345
+  passed: 0.3190
+  storm: 0.1886
+  winds: 0.2000
+
+Document 91:
+  bent: 0.3788
+  dwellings: 0.3788
+  poles: 0.3788
+  slum: 0.3788
+  toppled: 0.3788
+  uprooted: 0.3161
+  utility: 0.3788
+  winds: 0.1981
+
+Document 92:
+  around: 0.2218
+  blew: 0.2768
+  buildings: 0.2309
+  cancun: 0.1760
+  communications: 0.2565
+  gilbert: 0.1430
+  ham: 0.2768
+  knocked: 0.2768
+  operators: 0.2565
+  radio: 0.4436
+  roofs: 0.2141
+  said: 0.1019
+  television: 0.2421
+  tower: 0.2768
+  trees: 0.2074
+  uprooted: 0.2309
+
+Document 93:
+  cancun: 0.2090
+  efforts: 0.3287
+  floods: 0.3046
+  hotel: 0.2543
+  late: 0.3046
+  officials: 0.2274
+  prevented: 0.3287
+  reaching: 0.3046
+  relief: 0.3287
+  way: 0.3287
+  wednesday: 0.2331
+  zone: 0.2742
+
+Document 94:
+  blankets: 0.4534
+  food: 0.4534
+  little: 0.3966
+  power: 0.3507
+  shelters: 0.4202
+  water: 0.3634
+
+Document 95:
+  cant: 0.7071
+  yet: 0.7071
+
+Document 96:
+  army: 0.2820
+  away: 0.2820
+  blow: 0.3132
+  city: 0.2338
+  declined: 0.3379
+  give: 0.3379
+  hall: 0.3132
+  name: 0.3379
+  official: 0.2956
+  said: 0.1244
+  wind: 0.2956
+  would: 0.2396
+
+Document 97:
+  2530: 0.2363
+  alfredo: 0.2363
+  bands: 0.2363
+  cancun: 0.1502
+  coordinator: 0.2363
+  investigative: 0.2363
+  judicial: 0.2190
+  looting: 0.2190
+  moro: 0.2363
+  police: 0.2067
+  quintana: 0.2190
+  roamed: 0.2190
+  roo: 0.2190
+  said: 0.0870
+  sanchez: 0.2190
+  shattered: 0.2363
+  state: 0.1972
+  stores: 0.2190
+  streets: 0.1972
+  wednesday: 0.1676
+  windows: 0.1972
+  youths: 0.2363
+
+Document 98:
+  army: 0.2998
+  arrived: 0.2998
+  asked: 0.3593
+  halt: 0.3593
+  late: 0.3329
+  looting: 0.3329
+  none: 0.3593
+  said: 0.1322
+  troops: 0.3593
+  wednesday: 0.2547
+
+Document 99:
+  150: 0.4226
+  cancun: 0.2687
+  city: 0.2924
+  hall: 0.3916
+  refuge: 0.4226
+  took: 0.4226
+  tourists: 0.3916
+
+Document 100:
+  evacuated: 0.2441
+  fournier: 0.3257
+  honeymooner: 0.3257
+  hotel: 0.2519
+  husband: 0.3257
+  island: 0.2155
+  long: 0.2717
+  pete: 0.3257
+  playa: 0.3257
+  said: 0.1198
+  sheila: 0.3257
+  villas: 0.3257
+
+Document 101:
+  away: 0.4263
+  oceanfront: 0.5109
+  said: 0.1880
+  view: 0.5109
+  washed: 0.5109
+
+Document 102:
+  areas: 0.3604
+  cancun: 0.2859
+  checking: 0.4497
+  lowlying: 0.4497
+  officials: 0.3111
+  residents: 0.3370
+  stranded: 0.4167
+
+Document 103:
+  damage: 0.2792
+  heavy: 0.2465
+  homes: 0.2986
+  humble: 0.3726
+  thatch: 0.3726
+  typical: 0.3726
+  visible: 0.3726
+  wood: 0.3726
+  yucatan: 0.2792
+
+Document 104:
+  army: 0.3828
+  leave: 0.4588
+  official: 0.4013
+  people: 0.2863
+  said: 0.1688
+  want: 0.4588
+  yesterday: 0.4013
+
+Document 105:
+  new: 0.7335
+  something: 0.6797
+
+Document 106:
+  cyclone: 0.6556
+  didnt: 0.5734
+  know: 0.4913
+
+Document 107:
+  215: 0.2222
+  60: 0.2060
+  902: 0.2222
+  approaching: 0.2060
+  capital: 0.1854
+  center: 0.1278
+  centered: 0.2222
+  coast: 0.1340
+  coral: 0.2060
+  eastnortheast: 0.2222
+  edt: 0.1781
+  fla: 0.2060
+  gables: 0.2060
+  gilbert: 0.1148
+  hurricane: 0.0884
+  latitude: 0.2060
+  longitude: 0.2060
+  merida: 0.2222
+  midnight: 0.2060
+  miles: 0.1441
+  national: 0.1340
+  near: 0.2060
+  north: 0.3237
+  provincial: 0.2222
+  said: 0.0818
+  west: 0.1503
+  yucatan: 0.1666
+
+Document 108:
+  550: 0.4312
+  brownsville: 0.3996
+  center: 0.2480
+  miles: 0.2796
+  said: 0.1587
+  southeast: 0.3140
+  statement: 0.4312
+  storm: 0.2127
+  texas: 0.3996
+
+Document 109:
+  125: 0.3738
+  15: 0.3528
+  decreased: 0.4033
+  gilbert: 0.2084
+  moving: 0.2791
+  mph: 0.4946
+  westnorthwest: 0.4033
+  winds: 0.2109
+
+Document 110:
+  179: 0.3083
+  218: 0.3083
+  earlier: 0.2573
+  gusting: 0.2857
+  high: 0.2471
+  mexican: 0.2857
+  mph: 0.3781
+  national: 0.1859
+  reported: 0.1891
+  service: 0.2245
+  sustained: 0.2311
+  weather: 0.2245
+  wednesday: 0.2186
+  winds: 0.3225
+
+Document 111:
+  ad: 0.3654
+  category: 0.3196
+  classified: 0.3654
+  deadliest: 0.3654
+  earlier: 0.3048
+  gilbert: 0.1888
+  hurricane: 0.1453
+  storm: 0.1802
+  strongest: 0.3386
+  type: 0.3654
+  wednesday: 0.2591
+
+Document 112:
+  155: 0.3532
+  catastrophic: 0.3812
+  cause: 0.3532
+  damage: 0.2857
+  greater: 0.3812
+  maximum: 0.3180
+  mph: 0.2337
+  storms: 0.3180
+  sustained: 0.2857
+  winds: 0.1994
+
+Document 113:
+  back: 0.2185
+  bob: 0.2185
+  category: 0.2185
+  center: 0.2873
+  comes: 0.2498
+  director: 0.2002
+  downgraded: 0.2315
+  gets: 0.2498
+  hurricane: 0.0994
+  itll: 0.2498
+  national: 0.1506
+  night: 0.1728
+  open: 0.2498
+  peninsula: 0.1933
+  question: 0.2498
+  saidtheres: 0.2498
+  sheets: 0.1933
+  strengthen: 0.2498
+  water: 0.2002
+  wednesday: 0.1771
+  yucatan: 0.1872
+
+Document 114:
+  away: 0.2102
+  characteristic: 0.2520
+  circles: 0.2520
+  concentric: 0.2520
+  crossed: 0.2520
+  double: 0.2520
+  eye: 0.1888
+  formed: 0.2102
+  gilbert: 0.1302
+  hurricane: 0.1002
+  land: 0.2520
+  moved: 0.1949
+  moving: 0.1743
+  night: 0.1743
+  often: 0.2335
+  peninsula: 0.1949
+  storm: 0.1243
+  strong: 0.2204
+  thunderstorms: 0.2520
+  two: 0.2019
+  water: 0.2019
+  wednesday: 0.1787
+  yucatan: 0.1888
+
+Document 115:
+  25: 0.2585
+  center: 0.1604
+  eight: 0.2789
+  eye: 0.2090
+  hurricane: 0.1109
+  jesse: 0.2789
+  meteorologist: 0.2585
+  miles: 0.3617
+  moore: 0.2789
+  one: 0.1978
+  said: 0.1027
+  second: 0.2440
+  wide: 0.5579
+
+Document 116:
+  back: 0.3255
+  expect: 0.3448
+  expected: 0.2789
+  features: 0.3721
+  hurricane: 0.1480
+  intensification: 0.3721
+  moved: 0.2878
+  one: 0.2638
+  said: 0.1369
+  see: 0.3721
+  water: 0.2982
+
+Document 117:
+  1935: 0.2214
+  1969: 0.2345
+  256: 0.2531
+  408: 0.2531
+  camille: 0.2345
+  category: 0.2214
+  coast: 0.1526
+  devastated: 0.2214
+  florida: 0.2214
+  hit: 0.2112
+  hurricane: 0.1006
+  hurricanes: 0.1958
+  killed: 0.2345
+  killing: 0.2531
+  mississippi: 0.2531
+  people: 0.3159
+  states: 0.2345
+  storm: 0.1248
+  two: 0.2028
+  united: 0.2345
+
+Document 118:
+  companies: 0.3689
+  evacuated: 0.2983
+  gulf: 0.3190
+  mexico: 0.2899
+  oil: 0.3689
+  rigs: 0.3981
+  thousands: 0.3689
+  workers: 0.3981
+
+Document 119:
+  agency: 0.2272
+  campeche: 0.2451
+  cancun: 0.1559
+  carmen: 0.2451
+  celestum: 0.2451
+  ciudad: 0.2451
+  closed: 0.2272
+  del: 0.2451
+  government: 0.1837
+  morelos: 0.2451
+  news: 0.2272
+  notimex: 0.2451
+  peninsula: 0.1896
+  ports: 0.2451
+  progreso: 0.2451
+  puerto: 0.1478
+  said: 0.0902
+  sinzal: 0.2451
+  telchac: 0.2451
+  ucaltepen: 0.2451
+
+Document 120:
+  airports: 0.6066
+  closed: 0.5622
+  region: 0.5622
+
+Document 121:
+  approached: 0.3051
+  cancuns: 0.3051
+  carrillos: 0.3051
+  horrible: 0.3051
+  hotel: 0.2360
+  outside: 0.3051
+  pablo: 0.3051
+  receptionist: 0.3051
+  said: 0.1123
+  sound: 0.3051
+  storm: 0.1505
+  torres: 0.3051
+  wind: 0.2669
+
+Document 122:
+  along: 0.2362
+  arthur: 0.2947
+  brownsville: 0.2731
+  center: 0.1694
+  coast: 0.3553
+  effect: 0.2731
+  hurricane: 0.2344
+  mexico: 0.2146
+  national: 0.1777
+  north: 0.2146
+  northeast: 0.2578
+  port: 0.2731
+  said: 0.1085
+  tampico: 0.2947
+  texas: 0.2731
+  watch: 0.2459
+
+Document 123:
+  cancun: 0.2246
+  city: 0.2444
+  civil: 0.2831
+  contact: 0.3533
+  cozumel: 0.2831
+  defense: 0.2831
+  edt: 0.2831
+  lost: 0.3533
+  mexico: 0.2573
+  national: 0.2130
+  said: 0.1300
+  system: 0.3090
+  telephone: 0.3090
+
+Document 124:
+  155: 0.2542
+  buildings: 0.2289
+  cancun: 0.1744
+  cecila: 0.2743
+  chetumal: 0.2743
+  cozumel: 0.2199
+  government: 0.2056
+  lavalle: 0.2743
+  miles: 0.1779
+  public: 0.2743
+  quintana: 0.2542
+  roo: 0.2542
+  said: 0.1010
+  shelters: 0.2542
+  southeast: 0.1998
+  spokesman: 0.2400
+  state: 0.2289
+  used: 0.2743
+
+Document 125:
+  40000: 0.2532
+  65000: 0.2532
+  cancun: 0.3220
+  consular: 0.2532
+  estimate: 0.2532
+  figures: 0.2532
+  government: 0.1898
+  jennie: 0.2532
+  know: 0.1898
+  many: 0.2532
+  monthly: 0.2532
+  representative: 0.2532
+  said: 0.0932
+  tourists: 0.2347
+  us: 0.2347
+  valdez: 0.2532
+  visitors: 0.2532
+
+Document 126:
+  effect: 0.3792
+  entire: 0.3792
+  evacuations: 0.4092
+  hurricane: 0.1627
+  peninsula: 0.3165
+  reported: 0.2509
+  warnings: 0.3066
+  widespread: 0.4092
+  yucatan: 0.3066
+
+Document 127:
+  100: 0.4171
+  45000: 0.2500
+  alberto: 0.2500
+  cozumel: 0.2003
+  destroyed: 0.2316
+  homes: 0.2003
+  judicial: 0.2316
+  least: 0.2316
+  miles: 0.1620
+  officer: 0.2500
+  pol: 0.2500
+  police: 0.2186
+  said: 0.0920
+  slums: 0.2500
+  telephone: 0.2186
+  town: 0.2500
+  valladolid: 0.2500
+  winds: 0.1307
+
+Document 128:
+  barometric: 0.3925
+  center: 0.2435
+  gilbert: 0.2188
+  hurricane: 0.1684
+  intense: 0.3925
+  national: 0.2553
+  pressure: 0.3394
+  record: 0.3925
+  said: 0.1559
+  storm: 0.2089
+  terms: 0.3925
+
+Document 129:
+  1935: 0.2722
+  2631: 0.3111
+  2635: 0.2883
+  breaking: 0.3111
+  devastated: 0.2722
+  florida: 0.2722
+  hurricane: 0.1237
+  inches: 0.4814
+  keys: 0.2883
+  measured: 0.2722
+  recorded: 0.3111
+
+Document 130:
+  ever: 0.3181
+  forecaster: 0.2864
+  hemisphere: 0.3433
+  lowest: 0.3181
+  mark: 0.3433
+  measured: 0.3003
+  pressure: 0.2751
+  said: 0.1263
+  thats: 0.3003
+  western: 0.3003
+  zimmer: 0.3433
+
+Document 131:
+  cayman: 0.2995
+  dominican: 0.2610
+  gilbert: 0.2237
+  islands: 0.2995
+  jamaica: 0.2753
+  monday: 0.3470
+  pounded: 0.4329
+  republic: 0.2610
+  sunday: 0.2995
+  tuesday: 0.4012
+
+Document 132:
+  aid: 0.4629
+  billion: 0.4629
+  jamaica: 0.2943
+  need: 0.4290
+  said: 0.1704
+  seaga: 0.4049
+  would: 0.3283
+
+Document 133:
+  dead: 0.4401
+  dominican: 0.2653
+  five: 0.4079
+  officials: 0.3045
+  reported: 0.2699
+  republic: 0.2653
+  sideswiped: 0.4401
+  storm: 0.2171
+  sunday: 0.3045
+
+Document 134:
+  also: 0.4389
+  buffeted: 0.4736
+  cayman: 0.3276
+  deaths: 0.4736
+  gilbert: 0.2447
+  islands: 0.3276
+  reported: 0.2904
+
+Document 135:
+  africa: 0.2276
+  baffles: 0.2602
+  combination: 0.2602
+  ferocious: 0.2602
+  forecasters: 0.1895
+  fueled: 0.2602
+  gilberts: 0.2171
+  growth: 0.2412
+  gulf: 0.2086
+  harmless: 0.2602
+  heat: 0.2276
+  hurricane: 0.1035
+  killer: 0.2602
+  low: 0.2412
+  mexico: 0.1895
+  moisture: 0.2412
+  pressure: 0.2086
+  wind: 0.2276
+  zone: 0.2171
+
+Document 136:
+  center: 0.1654
+  clark: 0.2515
+  everything: 0.2876
+  getting: 0.2876
+  gil: 0.2876
+  hurricane: 0.1144
+  matter: 0.2876
+  national: 0.1734
+  place: 0.2665
+  right: 0.5031
+  said: 0.1058
+  thursday: 0.2665
+  time: 0.2155
+  together: 0.2876
+
+Document 137:
+  doesnt: 0.5914
+  happen: 0.5914
+  often: 0.5481
+
+Document 138:
+  develops: 0.6248
+  dont: 0.6248
+  know: 0.4682
+
+Document 139:
+  africa: 0.2886
+  attention: 0.3299
+  came: 0.3299
+  center: 0.1897
+  dry: 0.3299
+  forecasters: 0.2402
+  gilbert: 0.1704
+  low: 0.3057
+  moving: 0.2282
+  pressure: 0.2644
+  sept: 0.3057
+  trough: 0.3299
+  west: 0.2231
+
+Document 140:
+  50: 0.3934
+  60: 0.4168
+  africa: 0.3934
+  every: 0.4497
+  get: 0.3753
+  summer: 0.4168
+
+Document 141:
+  clark: 0.4843
+  develop: 0.5131
+  one: 0.3926
+  said: 0.2038
+  six: 0.5537
+
+Document 142:
+  became: 0.5432
+  depression: 0.4751
+  sept: 0.5034
+  system: 0.4751
+
+Document 143:
+  hurricane: 0.2078
+  reached: 0.4570
+  saturday: 0.3915
+  status: 0.4841
+  storm: 0.2577
+  sunday: 0.3614
+  tropical: 0.4041
+
+Document 144:
+  becomes: 0.4005
+  depression: 0.3780
+  start: 0.4005
+  swirling: 0.4321
+  tropical: 0.3343
+  wave: 0.4321
+  winds: 0.2260
+
+Document 145:
+  39: 0.3912
+  becomes: 0.3625
+  mph: 0.2399
+  named: 0.3625
+  reach: 0.3912
+  storm: 0.1930
+  sustained: 0.2931
+  system: 0.3422
+  tropical: 0.3026
+  winds: 0.2046
+
+Document 146:
+  74: 0.4506
+  hit: 0.3760
+  hurricane: 0.1792
+  mph: 0.2763
+  reaches: 0.4506
+  status: 0.4176
+  sustained: 0.3377
+  winds: 0.2357
+
+Document 147:
+  bleck: 0.2667
+  didnt: 0.2667
+  gilbert: 0.1575
+  less: 0.2826
+  meteorology: 0.3049
+  miami: 0.2162
+  mystery: 0.3049
+  organized: 0.3049
+  professor: 0.3049
+  rainer: 0.3049
+  said: 0.1122
+  strengthened: 0.2667
+  systems: 0.2544
+  university: 0.3049
+
+Document 148:
+  biting: 0.3315
+  develop: 0.3072
+  didnt: 0.2900
+  disturbances: 0.3315
+  first: 0.2900
+  nails: 0.3315
+  part: 0.3072
+  said: 0.1220
+  summer: 0.3072
+  thursday: 0.3072
+  wondering: 0.3315
+
+Document 149:
+  know: 0.3601
+  like: 0.3851
+  meteorologists: 0.4805
+  something: 0.4453
+  thats: 0.4203
+  would: 0.3407
+
+Document 150:
+  begins: 0.4292
+  budding: 0.3977
+  development: 0.3754
+  fuels: 0.4292
+  know: 0.3216
+  scientists: 0.4292
+  storm: 0.2117
+
+Document 151:
+  affected: 0.3570
+  converge: 0.3852
+  development: 0.3370
+  growth: 0.3570
+  know: 0.2887
+  place: 0.3570
+  sparked: 0.3852
+  time: 0.2887
+  winds: 0.2015
+
+Document 152:
+  10000: 0.2477
+  area: 0.2066
+  atmosphere: 0.2066
+  bleck: 0.2166
+  bottom: 0.2295
+  cloud: 0.2477
+  convergence: 0.2295
+  feet: 0.2295
+  formation: 0.2477
+  happens: 0.2477
+  lead: 0.2477
+  lower: 0.2295
+  may: 0.2295
+  moisture: 0.2295
+  motion: 0.2295
+  plenty: 0.2477
+  said: 0.0911
+  theres: 0.2477
+  upward: 0.2477
+
+Document 153:
+  clouds: 0.5629
+  condensation: 0.2815
+  convergence: 0.2608
+  feedback: 0.2815
+  form: 0.2815
+  heat: 0.2462
+  occasionally: 0.2815
+  pattern: 0.2815
+  positive: 0.2815
+  provides: 0.2815
+
+Document 154:
+  adding: 0.3373
+  begin: 0.3640
+  budding: 0.3373
+  earths: 0.3640
+  equator: 0.3640
+  rotation: 0.3640
+  said: 0.1339
+  storms: 0.3037
+  strengthens: 0.3640
+
+Document 155:
+  created: 0.5774
+  eventually: 0.5774
+  vortex: 0.5774
+
+Document 156:
+  air: 0.4033
+  contract: 0.4352
+  mass: 0.4352
+  spinning: 0.4352
+  start: 0.4033
+  time: 0.3262
+
+Document 157:
+  bleck: 0.3316
+  blizzards: 0.3790
+  hurricanes: 0.2932
+  makes: 0.3790
+  said: 0.1395
+  storms: 0.3163
+  thats: 0.3316
+  tornadoes: 0.3790
+  winter: 0.3790
+
+Document 158:
+  climate: 0.5272
+  hurricanes: 0.4078
+  machine: 0.5272
+  useful: 0.5272
+
+Document 159:
+  atmosphere: 0.3284
+  heat: 0.3443
+  lower: 0.3647
+  primary: 0.3936
+  role: 0.3936
+  said: 0.1448
+  transport: 0.3936
+  upper: 0.3936
+
+Document 160:
+  atmosphere: 0.2940
+  energy: 0.3523
+  lowest: 0.3265
+  oceans: 0.3523
+  part: 0.3265
+  puts: 0.3523
+  sun: 0.3523
+  top: 0.3523
+  water: 0.2824
+
+Document 161:
+  atmosphere: 0.4014
+  bottom: 0.4459
+  distributed: 0.4811
+  higher: 0.4208
+  levels: 0.4811
+
+Document 162:
+  atlantic: 0.3244
+  barbados: 0.3501
+  become: 0.3501
+  depression: 0.3062
+  gilbert: 0.1809
+  neared: 0.3501
+  nurtured: 0.3501
+  warm: 0.3501
+  waters: 0.3062
+  would: 0.2483
+
+Document 163:
+  best: 0.4311
+  caribbean: 0.2915
+  clark: 0.3771
+  development: 0.3771
+  northwest: 0.3597
+  said: 0.1587
+  time: 0.3231
+  year: 0.4311
+
+Document 164:
+  area: 0.3590
+  explode: 0.4303
+  get: 0.3590
+  september: 0.4303
+  storm: 0.2123
+  warmest: 0.4303
+  waters: 0.3764
+
+Document 165:
+  1969: 0.3655
+  camille: 0.3655
+  coast: 0.2378
+  exploded: 0.3944
+  formed: 0.3291
+  gulf: 0.3161
+  referring: 0.3944
+  slammed: 0.3450
+  storm: 0.1946
+
+Document 166:
+  exciting: 0.6090
+  thing: 0.6090
+  watch: 0.5081
+
+Document 167:
+  beach: 0.3529
+  different: 0.4034
+  said: 0.1485
+  storm: 0.1990
+  story: 0.4034
+  surge: 0.4034
+  watching: 0.4034
+  youre: 0.4034
+
+Document 168:
+  2613: 0.3350
+  barometric: 0.3104
+  center: 0.1926
+  gilbert: 0.1731
+  hurricane: 0.1332
+  inches: 0.2591
+  intense: 0.3104
+  measured: 0.2930
+  night: 0.2317
+  pressure: 0.2684
+  record: 0.3104
+  said: 0.1233
+  storm: 0.1652
+  terms: 0.3104
+  tuesday: 0.3104
+
+Document 169:
+  1935: 0.3642
+  2635: 0.3858
+  broke: 0.4163
+  devastated: 0.3642
+  florida: 0.3642
+  hurricane: 0.1656
+  inches: 0.3221
+  keys: 0.3858
+
+Document 170:
+  100mileanhour: 0.3153
+  coasts: 0.3153
+  cuba: 0.2295
+  dominican: 0.1901
+  gilbert: 0.1629
+  haiti: 0.2132
+  hurricane: 0.1254
+  issued: 0.2363
+  jamaica: 0.2004
+  officials: 0.2181
+  republic: 0.1901
+  residents: 0.2363
+  southern: 0.2439
+  swept: 0.2921
+  toward: 0.2921
+  warnings: 0.2363
+  winds: 0.1649
+  yesterday: 0.2758
+
+Document 171:
+  caused: 0.3852
+  coastal: 0.3529
+  flooding: 0.3207
+  houses: 0.4081
+  puerto: 0.2655
+  rico: 0.2749
+  ripped: 0.3852
+  roofs: 0.3407
+  storm: 0.2172
+
+Document 172:
+  canceled: 0.3338
+  domestic: 0.4001
+  dominican: 0.2412
+  flights: 0.6412
+  miami: 0.2837
+  puerto: 0.2412
+  republic: 0.2412
+  rico: 0.2497
+
+Document 173:
+  caribbean: 0.1921
+  dominican: 0.1712
+  dump: 0.2841
+  forecasters: 0.2068
+  gaining: 0.2485
+  haiti: 0.1921
+  headed: 0.2841
+  heavy: 0.1880
+  hispaniola: 0.2632
+  hurricane: 0.1130
+  island: 0.1880
+  moved: 0.2197
+  ocean: 0.2632
+  passed: 0.2370
+  rain: 0.1880
+  republic: 0.1712
+  said: 0.1045
+  share: 0.2632
+  south: 0.1841
+  strength: 0.2197
+  west: 0.1921
+  would: 0.2014
+
+Document 174:
+  gaining: 0.5690
+  still: 0.6505
+  strength: 0.5032
+
+Document 175:
+  100: 0.1827
+  425: 0.2189
+  caribbean: 0.1480
+  center: 0.2518
+  certainly: 0.1915
+  coral: 0.2029
+  dominican: 0.1320
+  east: 0.1915
+  edt: 0.1755
+  fla: 0.2029
+  forecaster: 0.1827
+  gables: 0.2029
+  gerrish: 0.1915
+  hal: 0.1915
+  hurricane: 0.1741
+  jamaica: 0.1392
+  kingston: 0.1694
+  larger: 0.1915
+  long: 0.1827
+  miles: 0.2839
+  national: 0.1320
+  one: 0.1552
+  pm: 0.1915
+  republic: 0.1320
+  said: 0.0806
+  seen: 0.1915
+  south: 0.1419
+  systems: 0.1827
+  time: 0.1641
+  weve: 0.1827
+
+Document 176:
+  15: 0.3334
+  24: 0.3812
+  continue: 0.3334
+  expected: 0.2857
+  hours: 0.3334
+  hurricane: 0.1516
+  motion: 0.3533
+  moving: 0.2637
+  mph: 0.2337
+  next: 0.3181
+  west: 0.2577
+
+Document 177:
+  50: 0.3508
+  forecasters: 0.2920
+  haiti: 0.2711
+  hurricanes: 0.3102
+  miles: 0.2600
+  said: 0.1476
+  south: 0.2600
+  southwestern: 0.3508
+  take: 0.3716
+  track: 0.3508
+  would: 0.2844
+
+Document 178:
+  center: 0.1980
+  conditions: 0.3444
+  craft: 0.3444
+  hurricane: 0.1370
+  improve: 0.3444
+  islands: 0.2383
+  port: 0.3191
+  puerto: 0.2076
+  remain: 0.3444
+  rico: 0.2149
+  said: 0.1267
+  small: 0.3191
+  virgin: 0.3191
+
+Document 179:
+  10: 0.2545
+  amounts: 0.2910
+  dominican: 0.1754
+  falling: 0.2910
+  forecasters: 0.2119
+  get: 0.2428
+  haiti: 0.1967
+  inches: 0.2251
+  last: 0.2696
+  much: 0.2696
+  night: 0.2013
+  rain: 0.1925
+  republic: 0.1754
+  said: 0.1071
+  similar: 0.2910
+  tonight: 0.2910
+  would: 0.2063
+  yesterday: 0.2545
+
+Document 180:
+  coast: 0.2682
+  cuba: 0.3239
+  governments: 0.4449
+  haiti: 0.3008
+  hurricane: 0.1769
+  issued: 0.3334
+  respective: 0.4449
+  south: 0.2884
+  warnings: 0.3334
+
+Document 181:
+  entire: 0.4832
+  government: 0.3907
+  hurricane: 0.2074
+  island: 0.3450
+  issued: 0.3907
+  jamaica: 0.3315
+  watch: 0.4350
+
+Document 182:
+  caribbean: 0.3027
+  eastern: 0.3915
+  formed: 0.3735
+  gilbert: 0.2313
+  hurricane: 0.1780
+  night: 0.3097
+  saturday: 0.3355
+  storm: 0.2208
+  strengthened: 0.3915
+  tropical: 0.3463
+
+Document 183:
+  along: 0.2161
+  besides: 0.2696
+  brought: 0.2498
+  caused: 0.2358
+  coastal: 0.2161
+  flooding: 0.1963
+  highways: 0.2696
+  lines: 0.2358
+  power: 0.2086
+  puerto: 0.1625
+  regions: 0.2696
+  rico: 0.1683
+  roads: 0.2498
+  roofs: 0.2086
+  several: 0.2498
+  southwestern: 0.2358
+  storm: 0.1330
+  tearing: 0.2498
+  trees: 0.2021
+  west: 0.1823
+
+Document 184:
+  97: 0.2913
+  along: 0.2335
+  fell: 0.2913
+  guayanilla: 0.2913
+  injured: 0.2913
+  people: 0.1818
+  police: 0.2548
+  puerto: 0.1756
+  reported: 0.1786
+  rico: 0.1818
+  route: 0.2913
+  three: 0.2700
+  traveled: 0.2913
+  tree: 0.2913
+  vehicle: 0.2913
+
+Document 185:
+  dominican: 0.2092
+  four: 0.3470
+  island: 0.2296
+  mona: 0.3470
+  policemen: 0.3470
+  puerto: 0.2092
+  republic: 0.2092
+  result: 0.3470
+  rico: 0.2166
+  stationed: 0.3470
+  stranded: 0.3215
+  weather: 0.2526
+

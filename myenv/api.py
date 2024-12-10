@@ -27,8 +27,6 @@ import matplotlib.pyplot as plt
 
 # STEP 1: đọc dữ liệu của Thư mục và File 
 # Đường dẫn đến thư mục chứa các file
-# folder_path_train = '/Users/duyenhuynh/Documents/python/TEST_NLP_SUM/myenv/train'
-# folder_path_SUM = 'D:/WORKSPACE/CodeWork/nlpcode/myenv/train/d061j'
 
 # Đường dẫn tệp output.txt nơi bạn muốn lưu toàn bộ dữ liệu đã đọc
 output_file_path = 'D:/WORKSPACE/CodeWork/nlpcode/myenv/output.txt'
@@ -166,6 +164,28 @@ def pagerank(matrix, d=0.85, tol=1.0e-6, max_iter=100):
     # Returns:
     # - ranks: Điểm PageRank của từng nút.
     # """
+    
+    # Code cũ theo Mạng
+    # N = matrix.shape[0]
+    
+    # # Chuẩn hóa ma trận kề để tạo ma trận xác suất chuyển đổi
+    # out_degree = np.sum(matrix, axis=1)
+    # transition_matrix = matrix / out_degree[:, None]
+    # transition_matrix = np.nan_to_num(transition_matrix)  # Xử lý chia cho 0
+    
+    # # Khởi tạo điểm PageRank
+    # ranks = np.ones(N) / N
+    
+    # for iteration in range(max_iter):
+    #     new_ranks = (1 - d) / N + d * np.dot(transition_matrix.T, ranks)
+        
+    #     # Kiểm tra hội tụ
+    #     if np.linalg.norm(new_ranks - ranks, 1) < tol:
+    #         break
+    #     ranks = new_ranks
+    
+    # Code mới theo công thức của cô 
+    # Số lượng nút trong đồ thị
     N = matrix.shape[0]
     
     # Chuẩn hóa ma trận kề để tạo ma trận xác suất chuyển đổi
@@ -173,18 +193,22 @@ def pagerank(matrix, d=0.85, tol=1.0e-6, max_iter=100):
     transition_matrix = matrix / out_degree[:, None]
     transition_matrix = np.nan_to_num(transition_matrix)  # Xử lý chia cho 0
     
-    # Khởi tạo điểm PageRank
-    ranks = np.ones(N) / N
-    
-    for iteration in range(max_iter):
-        new_ranks = (1 - d) / N + d * np.dot(transition_matrix.T, ranks)
-        
-        # Kiểm tra hội tụ
-        if np.linalg.norm(new_ranks - ranks, 1) < tol:
-            break
-        ranks = new_ranks
+    # Khởi tạo điểm PageRank ban đầu (chia đều cho các nút)
+    pagerank = np.ones(N) / N
 
-    return ranks
+    # Lặp tính toán điểm PageRank
+    for iteration in range(max_iter):
+        # Tính toán PageRank bằng công thức vector hóa
+        new_pagerank = (1 - d) / N + d * np.dot(transition_matrix.T, pagerank)
+        
+        # Kiểm tra hội tụ: nếu sự thay đổi nhỏ hơn ngưỡng tol thì dừng
+        if np.linalg.norm(new_pagerank - pagerank, ord=1) < tol:
+            break
+        
+        # Cập nhật giá trị PageRank
+        pagerank = new_pagerank
+
+    return pagerank
 
 # Áp dụng thuật toán PageRank
 pagerank_scores = pagerank(cosine_sim_matrix)
@@ -258,22 +282,49 @@ with open(preprocessed_output_file_SUM, 'r', encoding='utf-8') as file:
 vectorizer_SUM = TfidfVectorizer()
 tfidf_matrix_SUM = vectorizer_SUM.fit_transform(processed_sentences_SUM)
 
+# Code cũ 
+# # Chuyển danh sách thành tập hợp (set)
+# set1 = set(summary_sentences)
+# set2 = set(contentTF_SUM)
 
+# # So sánh các câu
+# common_sentences = set1 & set2  # Giao của hai tập hợp
+# common_count = len(common_sentences)  # Số lượng câu giống nhau
+
+# # In kết quả
+
+# print("Các câu giống nhau:")
+# print("\n".join(common_sentences))
+
+# print(f"\nSố câu giống nhau: {common_count}")
+
+# # độ chính xác phần trăm của data sau khi tóm tắt.
+# percent_dataset1 = (common_count / len(set1)) * 100
+# print(f"Phần trăm giống với văn bản chuẩn: {percent_dataset1:.2f}%")
+
+# code mới 
 # Chuyển danh sách thành tập hợp (set)
-set1 = set(summary_sentences)
-set2 = set(contentTF_SUM)
+set1 = set(summary_sentences)  # Tập câu tóm tắt tự động
+set2 = set(contentTF_SUM)  # Tập câu tóm tắt chuẩn
 
 # So sánh các câu
 common_sentences = set1 & set2  # Giao của hai tập hợp
 common_count = len(common_sentences)  # Số lượng câu giống nhau
 
-# In kết quả
+# Precision
+precision = common_count / len(set1) if len(set1) > 0 else 0
 
+# Recall
+recall = common_count / len(set2) if len(set2) > 0 else 0
+
+# F1-Score
+f1_score = (2 * precision * recall) / (precision + recall) if (precision + recall) > 0 else 0
+
+# In kết quả
 print("Các câu giống nhau:")
 print("\n".join(common_sentences))
 
 print(f"\nSố câu giống nhau: {common_count}")
-
-# độ chính xác phần trăm của data sau khi tóm tắt.
-percent_dataset1 = (common_count / len(set1)) * 100
-print(f"Phần trăm giống với văn bản chuẩn: {percent_dataset1:.2f}%")
+print(f"Precision: {precision:.2f}")
+print(f"Recall: {recall:.2f}")
+print(f"F1-Score: {f1_score:.2f}")

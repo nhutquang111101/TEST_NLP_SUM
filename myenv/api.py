@@ -10,7 +10,6 @@ from nltk.corpus import stopwords
 from nltk.tokenize import word_tokenize
 
 # phục vụ xây dựng đồ thị và tính toán độ tương đồng
-import networkx as nx
 from sklearn.feature_extraction.text import TfidfVectorizer
 from sklearn.metrics.pairwise import cosine_similarity
 import numpy as np
@@ -132,19 +131,53 @@ cosine_sim_file = 'D:/WORKSPACE/CodeWork/nlpcode/myenv/cosine_similarity_matrix.
 np.savetxt(cosine_sim_file, cosine_sim_matrix, fmt='%.4f', delimiter='\t', header="Cosine Similarity Matrix")
 
 # Xây dựng đồ thị từ ma trận độ tương đồng
-graph = nx.from_numpy_array(cosine_sim_matrix)
+
+# Đặt ngưỡng (threshold) để quyết định kết nối các node
+threshold = 0.5 # Giá trị ngưỡng (chỉ kết nối nếu độ tương đồng lớn hơn ngưỡng này)
+
+# Sử dụng từ điển để biểu diễn đồ thị
+graph = {}
+
+# Số lượng đỉnh trong đồ thị
+num_nodes = cosine_sim_matrix.shape[0]
+
+# Duyệt qua ma trận để xây dựng đồ thị
+for i in range(num_nodes):
+    for j in range(num_nodes):
+        if i != j and cosine_sim_matrix[i, j] > threshold:  #kiểm tra ngưỡng
+            if i not in graph:
+                graph[i] = []  # Nếu chưa có đỉnh i, khởi tạo danh sách rỗng
+            graph[i].append((j, cosine_sim_matrix[i, j]))
 
 # Đường dẫn lưu đồ thị
 graph_file = 'D:/WORKSPACE/CodeWork/nlpcode/myenv/graph_edge_list.txt'
 
 # Lưu đồ thị dưới dạng danh sách cạnh
-nx.write_weighted_edgelist(graph, graph_file)
+with open(graph_file, 'w', encoding='utf-8') as f:
+    for node, edges in graph.items():
+        for edge in edges:
+            f.write(f"{node}\t{edge[0]}\t{edge[1]:.4f}\n")  # Ghi mỗi cạnh trên một dòng
 
 # Đường dẫn lưu đồ thị dạng JSON
 graph_json_file = 'D:/WORKSPACE/CodeWork/nlpcode/myenv/graph.json'
 
 # Chuyển đồ thị sang định dạng JSON
-graph_data = nx.node_link_data(graph)
+graph_data = {"nodes": [], "edges": []}
+
+# Thêm thông tin các đỉnh
+for node in graph.keys():
+    graph_data["nodes"].append({"id": node})
+
+# Thêm thông tin các cạnh
+for node, edges in graph.items():
+    for edge in edges:
+        graph_data["edges"].append({
+            "source": node,
+            "target": edge[0],
+            "weight": edge[1]
+        })
+
+# Lưu đồ thị dưới dạng JSON
 with open(graph_json_file, 'w', encoding='utf-8') as f:
     json.dump(graph_data, f, ensure_ascii=False, indent=4)
 
@@ -153,44 +186,13 @@ with open(graph_json_file, 'w', encoding='utf-8') as f:
 # Tính Pagerank
 def pagerank(matrix, d=0.85, tol=1.0e-6, max_iter=100):
     # """
-    # Tính điểm PageRank từ ma trận kề.
+    # Tính điểm PageRank từ ma .
     
-    # Args:
-    # - matrix: Ma trận kề (numpy array).
-    # - d: Hệ số giảm dần (default 0.85).
-    # - tol: Ngưỡng hội tụ (default 1.0e-6).
-    # - max_iter: Số lần lặp tối đa (default 100).
-    
-    # Returns:
-    # - ranks: Điểm PageRank của từng nút.
-    # """
-    
-    # Code cũ theo Mạng
-    # N = matrix.shape[0]
-    
-    # # Chuẩn hóa ma trận kề để tạo ma trận xác suất chuyển đổi
-    # out_degree = np.sum(matrix, axis=1)
-    # transition_matrix = matrix / out_degree[:, None]
-    # transition_matrix = np.nan_to_num(transition_matrix)  # Xử lý chia cho 0
-    
-    # # Khởi tạo điểm PageRank
-    # ranks = np.ones(N) / N
-    
-    # for iteration in range(max_iter):
-    #     new_ranks = (1 - d) / N + d * np.dot(transition_matrix.T, ranks)
-        
-    #     # Kiểm tra hội tụ
-    #     if np.linalg.norm(new_ranks - ranks, 1) < tol:
-    #         break
-    #     ranks = new_ranks
-    
-    # Code mới theo công thức của cô 
-    # Số lượng nút trong đồ thị
     N = matrix.shape[0]
     
     # Chuẩn hóa ma trận kề để tạo ma trận xác suất chuyển đổi
-    out_degree = np.sum(matrix, axis=1)
-    transition_matrix = matrix / out_degree[:, None]
+    degr = np.sum(matrix, axis=1)
+    transition_matrix = matrix / degr[:, None]
     transition_matrix = np.nan_to_num(transition_matrix)  # Xử lý chia cho 0
     
     # Khởi tạo điểm PageRank ban đầu (chia đều cho các nút)
@@ -215,6 +217,13 @@ pagerank_scores = pagerank(cosine_sim_matrix)
 
 # Sắp xếp các câu theo điểm PageRank
 ranked_sentences = sorted(((pagerank_scores[i], s) for i, s in enumerate(processed_sentences)), reverse=True)
+
+# In ra điểm PageRank của từng câu
+Score_pageRank = 'D:/WORKSPACE/CodeWork/nlpcode/myenv/PageRank_Score.txt'
+with open(Score_pageRank, 'w', encoding='utf-8') as file:
+    for rank, sentence in ranked_sentences:
+        file.write(f"Điểm: {rank:.4f} | Câu: {sentence}" + '\n')
+
 
 # Tính số lượng câu trong văn bản gốc
 total_sentences = len(ranked_sentences)

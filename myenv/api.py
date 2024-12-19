@@ -17,10 +17,10 @@ import pandas as pd
 from scipy.spatial import distance
 import json
 
-
-
-# Vẽ đồ thị
+#vẽ đồ thị ra màn hình
+import networkx as nx
 import matplotlib.pyplot as plt
+
 
 
 
@@ -135,6 +135,10 @@ np.savetxt(cosine_sim_file, cosine_sim_matrix, fmt='%.4f', delimiter='\t', heade
 # Đặt ngưỡng (threshold) để quyết định kết nối các node
 threshold = 0.5 # Giá trị ngưỡng (chỉ kết nối nếu độ tương đồng lớn hơn ngưỡng này)
 
+# Lọc ma trận cosine similarity
+filtered_cosine_sim_matrix = np.where(cosine_sim_matrix >= threshold, cosine_sim_matrix, 0)
+
+cosine_sim_matrix = filtered_cosine_sim_matrix
 # Sử dụng từ điển để biểu diễn đồ thị
 graph = {}
 
@@ -144,7 +148,7 @@ num_nodes = cosine_sim_matrix.shape[0]
 # Duyệt qua ma trận để xây dựng đồ thị
 for i in range(num_nodes):
     for j in range(num_nodes):
-        if i != j and cosine_sim_matrix[i, j] > threshold:  #kiểm tra ngưỡng
+        if i != j and cosine_sim_matrix[i, j] > 0:  #kiểm tra ngưỡng
             if i not in graph:
                 graph[i] = []  # Nếu chưa có đỉnh i, khởi tạo danh sách rỗng
             graph[i].append((j, cosine_sim_matrix[i, j]))
@@ -181,7 +185,22 @@ for node, edges in graph.items():
 with open(graph_json_file, 'w', encoding='utf-8') as f:
     json.dump(graph_data, f, ensure_ascii=False, indent=4)
 
+# Chuyển đổi từ từ điển sang đồ thị NetworkX
+G = nx.DiGraph()
 
+# Thêm các cạnh vào đồ thị NetworkX
+for i, neighbors in graph.items():
+    for j, weight in neighbors:
+        G.add_edge(i, j, weight=weight)
+
+# Vẽ đồ thị
+pos = nx.spring_layout(G)  # Bố cục đồ thị
+nx.draw(G, pos, with_labels=True, node_color='lightblue', node_size=3000, font_size=12)
+labels = nx.get_edge_attributes(G, 'weight')
+nx.draw_networkx_edge_labels(G, pos, edge_labels=labels, font_color='red')
+
+plt.title("Cosine Similarity Graph (Without Threshold)")
+plt.show()
 
 # Tính Pagerank
 def pagerank(matrix, d=0.85, tol=1.0e-6, max_iter=100):
@@ -192,8 +211,8 @@ def pagerank(matrix, d=0.85, tol=1.0e-6, max_iter=100):
     
     # Chuẩn hóa ma trận kề để tạo ma trận xác suất chuyển đổi
     degr = np.sum(matrix, axis=1)
-    transition_matrix = matrix / degr[:, None]
-    transition_matrix = np.nan_to_num(transition_matrix)  # Xử lý chia cho 0
+    matrix_transaction = matrix / degr[:, None]
+    matrix_transaction = np.nan_to_num(matrix_transaction)  # Xử lý chia cho 0
     
     # Khởi tạo điểm PageRank ban đầu (chia đều cho các nút)
     pagerank = np.ones(N) / N
@@ -201,7 +220,7 @@ def pagerank(matrix, d=0.85, tol=1.0e-6, max_iter=100):
     # Lặp tính toán điểm PageRank
     for iteration in range(max_iter):
         # Tính toán PageRank bằng công thức vector hóa
-        new_pagerank = (1 - d) / N + d * np.dot(transition_matrix.T, pagerank)
+        new_pagerank = (1 - d) / N + d * np.dot(matrix_transaction.T, pagerank)
         
         # Kiểm tra hội tụ: nếu sự thay đổi nhỏ hơn ngưỡng tol thì dừng
         if np.linalg.norm(new_pagerank - pagerank, ord=1) < tol:
@@ -211,9 +230,9 @@ def pagerank(matrix, d=0.85, tol=1.0e-6, max_iter=100):
         pagerank = new_pagerank
 
     return pagerank
-
+print(filtered_cosine_sim_matrix)
 # Áp dụng thuật toán PageRank
-pagerank_scores = pagerank(cosine_sim_matrix)
+pagerank_scores = pagerank(filtered_cosine_sim_matrix)
 
 # Sắp xếp các câu theo điểm PageRank
 ranked_sentences = sorted(((pagerank_scores[i], s) for i, s in enumerate(processed_sentences)), reverse=True)
@@ -286,30 +305,6 @@ contentTF_SUM = ''
 with open(preprocessed_output_file_SUM, 'r', encoding='utf-8') as file:
     contentTF_SUM = file.read().splitlines()
     
-    
- ### 2. Xây dựng đồ thị dựa trên TF-IDF và độ tương đồng cosine
-vectorizer_SUM = TfidfVectorizer()
-tfidf_matrix_SUM = vectorizer_SUM.fit_transform(processed_sentences_SUM)
-
-# Code cũ 
-# # Chuyển danh sách thành tập hợp (set)
-# set1 = set(summary_sentences)
-# set2 = set(contentTF_SUM)
-
-# # So sánh các câu
-# common_sentences = set1 & set2  # Giao của hai tập hợp
-# common_count = len(common_sentences)  # Số lượng câu giống nhau
-
-# # In kết quả
-
-# print("Các câu giống nhau:")
-# print("\n".join(common_sentences))
-
-# print(f"\nSố câu giống nhau: {common_count}")
-
-# # độ chính xác phần trăm của data sau khi tóm tắt.
-# percent_dataset1 = (common_count / len(set1)) * 100
-# print(f"Phần trăm giống với văn bản chuẩn: {percent_dataset1:.2f}%")
 
 # code mới 
 # Chuyển danh sách thành tập hợp (set)
